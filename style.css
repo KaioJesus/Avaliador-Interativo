@@ -10,6 +10,8 @@ body {
 }
 
 main{
+    height: 100vh;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,30 +21,30 @@ section{
     background-color: hsl(213, 19%, 18%);
     border-radius: 30px;
     width: 30%;
+    height: fit-content;
     box-sizing: border-box;
 }
 
 .icone{
-    margin-top: 32px;
-    margin: 0 32px;
+    margin: 32px;
 }
 
 h2 {
     font-size: 28px;
     color: hsl(0, 0%, 100%);
-    padding: 32px;
+    padding: 0 32px;
 }
 
 p{
     font-size: 15px;
     color: hsl(217, 12%, 63%);
-    margin: 0 32px;
+    margin: 8px 32px;
 }
 
 .rating{
     display: flex;
     justify-content: space-evenly;
-    margin: 15px 0;
+    margin: 32px 0;
 }
 
 .rating__button{
@@ -50,7 +52,8 @@ p{
     height: 50px;
     border-radius: 60%;
     color: hsl(217, 12%, 63%);
-    background-color: hsl(216, 12%, 8%);
+    background-color: hsl(211, 20%, 16%);
+    opacity: 0.5s;
     border: none;
     
     
@@ -71,9 +74,9 @@ p{
 .submit{
     background-color: hsl(25, 97%, 53%);
     border: none;
-    width: 15%;
-    height: 30px;
-    border-radius: 10px;
+    width: 85%;
+    height: 40px;
+    border-radius: 20px;
     color: hsl(0, 0%, 100%);
     font-weight: 400;
     display: block;
