@@ -11,7 +11,6 @@ body {
 
 main{
     height: 100vh;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,4 +85,48 @@ p{
 .submit:hover{
     color: hsl(25, 97%, 53%);
     background-color: hsl(0, 0%, 100%);
+}
+
+/* rated page */
+
+.section-rated{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+    width: 25%;
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+.dataimg{
+    margin-top: 32px;
+    text-align: center;
+}
+
+.selected{
+    text-align: center;
+    font-size: 15px;
+    color: hsl(25, 62%, 51%);
+    margin: 8px 32px 32px 32px;
+}
+
+.titulorated{
+    text-align: center;
+    font-size: 28px;
+    color: hsl(0, 0%, 100%);
+    padding: 0 32px;
+}
+
+.prated{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    /* se eu coloco width para por background a centralização sai */
+    margin: 8px 32px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width: 480px){
+    main{
+        
+    }
 }
