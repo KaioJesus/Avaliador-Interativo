@@ -1,6 +1,8 @@
 # Frontend Mentor - Interactive rating 
 
-![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Interactive rating component coding challenge](./design/preview.jpg)
+
+![Design preview for the Interactive rating component coding challenge](./design/preview2.jpg)
 
 > Sobre o projeto
 

@@ -7,7 +7,4 @@ function onSubmit() {
     tela2.style.display = 'block';
   };
  
-  function radioSelect(){
-    if(radioButton.onclick)
-  }
 // atrela uma função ao evento de "click" do botão
