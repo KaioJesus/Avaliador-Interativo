@@ -13,7 +13,7 @@
   </head>
   <body>
     <main>
-      <section>
+      <div class="card">
           <!-- Rating state start -->
           <h1>
             <img class="icone" src="images/icon-star.svg" alt="Ícone de estrela">
@@ -24,19 +24,38 @@
           <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
 
           <div class="rating">
-            <input class="rating__button" type="button" value="1">
-            <input class="rating__button" type="button" value="2">
-            <input class="rating__button" type="button" value="3">
-            <input class="rating__button" type="button" value="4">
-            <input class="rating__button" type="button" value="5">
+            <label for="dado"></label>
+            <input class="rating__radio select" id="avaliar" type="button" value="1" checked>
+
+            <label for="dado"></label>
+            <input class="rating__radio select" id="avaliar" type="button" value="2">
+
+            <label for="dado"></label>
+            <input class="rating__radio select" id="avaliar" type="button" value="3">
+
+            <label for="dado"></label>
+            <input class="rating__radio select" id="avaliar" type="button" value="4">
+
+            <label for="dado"></label>
+            <input class="rating__radio select" id="avaliar" type="button" value="5">
           </div>
       
-          <input type="button" onclick="window.location.href='rated.html'" id="submitt" value="S U B M I T" class="submit">
+          <input type="button" value="S U B M I T" class="submit" onclick="onSubmit()">
           <!-- por enquanto vou deixar assim -->
           <!-- Rating state end -->
       
           <!-- Thank you state start -->
-      </section>
+        </div>
+        <div class="card-2">
+            <h1 class="dataimg"><img src="images/illustration-thank-you.svg" alt="Imagem de um celular ilustrando que um dado está sendo enviado"></h1>
+      
+            <p class="selected">You selected <!-- Add rating here --> out of 5</p> 
+      
+            <h2 class="titulorated">Thank you!</h2> 
+             
+            <p class="prated">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+        </div>
     </main>
+    <script src="js/main.js"></script>
   </body>
 </html>
